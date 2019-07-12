@@ -38,6 +38,6 @@ def check_price():
 
 while (True):
     check_price()
-    time.sleep
+    time.sleep(86400) #one day
     
 
