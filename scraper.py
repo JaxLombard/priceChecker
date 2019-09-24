@@ -16,7 +16,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('jaxlombard@gmail.com', 'odrcpvvbumhxvart')
+    server.login('email', 'password')
 
     subject = 'Price fell down!'
     body = 'Check the link! https://www.ebay.com/itm/Pokemon-Cards-XY-Fates-Collide-Booster-Pack-10-cards-New-Factory-Sealed/362633593734?_trkparms=aid%3D111001%26algo%3DREC.SEED%26ao%3D1%26asc%3D20160908105057%26meid%3Db58752b1216344db92dd2952695b8266%26pid%3D100675%26rk%3D1%26rkt%3D15%26sd%3D362633593734%26itm%3D362633593734%26pg%3D2481888&_trksid=p2481888.c100675.m4236&_trkparms=pageci%3Aed48b66f-a4d7-11e9-9026-74dbd1804f18%7Cparentrq%3Ae792e2d916b0a68d5f8c3c30ff824a02%7Ciid%3A1'
